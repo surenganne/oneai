@@ -1,7 +1,7 @@
 'use client'
-import React, { useEffect, useState } from 'react'
 import { Github } from '@/app/components/base/icons/src/public/common'
 import type { GithubRepo } from '@/models/common'
+import { useEffect, useState } from 'react'
 
 const getStar = async () => {
   const res = await fetch('https://api.github.com/repos/langgenius/dify')
@@ -37,7 +37,7 @@ const GithubStar = () => {
     <a
       href='https://github.com/langgenius/dify'
       target='_blank' rel='noopener noreferrer'
-      className='flex items-center leading-[18px] border border-gray-200 rounded-md text-xs text-gray-700 font-semibold overflow-hidden'>
+      className='flex items-center leading-[18px] border border-gray-200 rounded-md text-xs text-gray-700 font-semibold overflow-hidden hidden'>
       <div className='flex items-center px-2 py-1 bg-gray-100'>
         <Github className='mr-1 w-[18px] h-[18px]' />
         Star
