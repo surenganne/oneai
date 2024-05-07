@@ -1,5 +1,5 @@
 const translation = {
-  pageTitle: 'Hey, let\'s get started!',
+  pageTitle: 'Hey, let\'s get started!!',
   welcome: 'Welcome to OneAI, please log in to continue.',
   email: 'Email address',
   emailPlaceholder: 'Your email',
